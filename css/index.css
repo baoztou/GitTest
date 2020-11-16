@@ -1,0 +1,342 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\000032}}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\000037}}
+li {
+  list-style: none;
+}
+/* 声明字体*/
+@font-face {
+  font-family: electronicFont;
+  src: url(../font/DS-DIGIT.TTF);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\0000315}}
+body {
+  background: url(../images/bg.jpg) no-repeat top center;
+  line-height: 1.15;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\0000319}}
+header {
+  position: relative;
+  height: 1.25rem;
+  background: url(../images/head_bg.png) no-repeat;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\0000324}}
+header h1 {
+  font-size: 0.475rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\0000330}}
+header .showTime {
+  position: absolute;
+  right: 0.375rem;
+  top: 0;
+  line-height: 0.9375rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.25rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\0000341}}
+.mainbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 1024px;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0.125rem 0.125rem 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\0000347}}
+.mainbox .column {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\0000350}}
+.mainbox .column:nth-child(2) {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  margin: 0 0.125rem 0.1875rem;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\0000355}}
+.mainbox .panel {
+  position: relative;
+  height: 3.875rem;
+  padding: 0 0.1875rem 0.5rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  margin-bottom: 0.1875rem;
+  background: url(../images/line\(1\).png) rgba(255, 255, 255, 0.03);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\0000362}}
+.mainbox .panel::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #02a6b5;
+  border-top: 2px solid #02a6b5;
+  content: "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\0000372}}
+.mainbox .panel::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #02a6b5;
+  border-top: 2px solid #02a6b5;
+  content: "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\0000382}}
+.mainbox .panel .panel-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\0000387}}
+.mainbox .panel .panel-footer::before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #02a6b5;
+  border-bottom: 2px solid #02a6b5;
+  content: "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\0000397}}
+.mainbox .panel .panel-footer::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #02a6b5;
+  border-bottom: 2px solid #02a6b5;
+  content: "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003108}}
+.mainbox .panel h2 {
+  height: 0.6rem;
+  color: #fff;
+  line-height: 0.6rem;
+  text-align: center;
+  font-size: 0.25rem;
+  font-weight: 400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003115}}
+.mainbox .panel h2 a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.125rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003121}}
+.mainbox .panel .chart {
+  height: 3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003127}}
+.no {
+  background: rgba(101, 132, 226, 0.1);
+  padding: 0.1875rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003130}}
+.no .no-hd {
+  position: relative;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003133}}
+.no .no-hd::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 30px;
+  height: 10px;
+  border-top: 2px solid #02a6b5;
+  border-left: 2px solid #02a6b5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003143}}
+.no .no-hd::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: "";
+  width: 30px;
+  height: 10px;
+  border-right: 2px solid #02a6b5;
+  border-bottom: 2px solid #02a6b5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003153}}
+.no .no-hd ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003155}}
+.no .no-hd ul li {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  line-height: 1rem;
+  font-size: 0.875rem;
+  color: #ffeb7b;
+  text-align: center;
+  font-family: "electronicFont";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003163}}
+.no .no-hd ul li::after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  right: 0;
+  height: 50%;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003176}}
+.no .no-bd ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003178}}
+.no .no-bd ul li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.225rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  padding-top: 0.125rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003190}}
+.map {
+  position: relative;
+  height: 10.125rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003193}}
+.map .map1 {
+  width: 6.475rem;
+  height: 6.475rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: url(../images/map.png);
+  background-size: 100% 100%;
+  opacity: 0.3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003204}}
+.map .map2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 8.0375rem;
+  height: 8.0375rem;
+  background: url(../images/lbx.png);
+  -webkit-animation: rotate1 15s linear infinite;
+          animation: rotate1 15s linear infinite;
+  opacity: 0.6;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003217}}
+.map .map3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 7.075rem;
+  height: 7.075rem;
+  background: url(../images/jt.png);
+  -webkit-animation: rotate2 10s linear infinite;
+          animation: rotate2 10s linear infinite;
+  opacity: 0.6;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003229}}
+.map .chart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10.125rem;
+}
+@-webkit-keyframes rotate1 {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003238}}
+  form {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003241}}
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+            transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes rotate1 {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003238}}
+  form {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003241}}
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+            transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@-webkit-keyframes rotate2 {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003246}}
+  form {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003249}}
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(-360deg);
+            transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+@keyframes rotate2 {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003246}}
+  form {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003249}}
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(-360deg);
+            transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+/* 约束屏幕尺寸 */
+@media screen and (max-width: 1024px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003257}}
+  html {
+    font-size: 42px !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/css\/screen\/less\/index\.less}line{font-family:\00003262}}
+  html {
+    font-size: 80px !important;
+  }
+}
